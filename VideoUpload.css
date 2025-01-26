@@ -1,0 +1,44 @@
+.videoUpload {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #DCE2F0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .videoUpload h2 {
+    text-align: center;
+    color: #50586C;
+  }
+  
+  .videoUpload form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .videoUpload input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .videoUpload button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #50586C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .videoUpload button:hover {
+    background-color: #9a9fab;
+  }
+  
